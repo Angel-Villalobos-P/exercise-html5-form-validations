@@ -3,14 +3,13 @@ function showAlert() {
     $('#alert-message').show();
 }
 
+//oculta el alert
 function hideAlert() {
     $('#alert-message').hide();
 }
 
 (function () {
     'use strict'
-    //$('#alert-message').addClass('hidden')
-    //$('#alert-message').hide()
 
     //Obtiene los formularios cuya clase es 'needs-validation', a los cuales se les aplicará la validación
     var forms = document.querySelectorAll('.needs-validation')
