@@ -21,10 +21,10 @@
                         <p class="h5">Payment form example</p>
                     </div>
                     <div class="card-body">
+                        <div id="alert-message" class="alert alert-danger hidden" role="alert" style="display: none;">
+                            Some fields are missing
+                        </div>
                         <form class="row g-3 needs-validation" novalidate>
-                            <div class="alert alert-danger form g-3 invalid-feedback" role="alert">
-                                Some fields are missing
-                            </div>
                             <div class="col-md-6">
                                 <label class="form-label" for="validationCustom01">Card #</label>
                                 <input type="text" class="form-control" id="validationCustom01"
@@ -164,5 +164,7 @@
     </div>
 </body>
 <script src="./validation.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
 
 </html>
